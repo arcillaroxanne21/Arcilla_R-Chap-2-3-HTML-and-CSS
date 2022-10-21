@@ -1,0 +1,114 @@
+body{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: tan;
+}
+.navs-links ul{
+   display: flex;
+   list-style-type: none;
+
+}
+.navs-links li a{
+   text-decoration:none;
+   margin: 0 14px;
+   font-size: 18px;
+
+}
+.regform{
+   background-color:cornsilk;
+   border: 2px solid;
+   margin-right: 20%;
+   margin-left: 20%;
+   padding: 10px;
+   border-radius: 20px;
+   width: 58%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+
+}
+.regform h1,p{
+   margin-top: 0%;
+   padding-top: 0%;
+   margin: 0 14px;
+}
+
+.form {
+   display: inline-block;
+
+} 
+
+.regform-form, input #fname, #mname, #lname{
+   width: 20%;
+
+}
+.input-h2 #birthday, #gender{
+   margin: 1%;
+   width: 20%;
+   
+}
+.input-h2 #course{
+   margin: 1%;
+   width: 20%;
+}
+
+.input-h2 #street-address,#pzc{
+   margin: 1%;
+   width: 70%;
+}
+.box{
+  font: right;
+}
+
+footer{
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 1px;
+   display: flex;
+   background-color: tan;
+   padding-bottom: 1%;
+   padding-top: 0%;
+   font-size:large;
+}
+
+.fa{
+   padding: 20%;
+   font-size: 30px;
+   width: 2%;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 10%;
+   height: 20%;
+
+ }
+
+ /* Facebook */
+ .fa-facebook{
+   background-color: #3b5998;
+   color: white;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   margin-left: 4%;
+   margin-right: 1%;
+
+ }
+ /* Twitter */
+ .fa-twitter{
+   background-color: #55acee;
+   color: white;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   margin-right: 1%
+ }
+ /* Instagram */
+ .fa-instagram{
+   background-color: #fa7646;
+   color: white;
+   padding-top: 1%;
+   padding-bottom: 1%;
+ }

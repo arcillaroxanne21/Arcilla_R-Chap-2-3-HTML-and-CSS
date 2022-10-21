@@ -1,0 +1,127 @@
+body{
+   margin: 0%;
+   padding:0%;
+   box-sizing: border-box;
+
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: tan;
+}
+.nav-links ul{
+   display: flex;
+   list-style-type: none;
+}
+.nav-links li a{
+   text-decoration: none;
+   margin: 0 14px;
+   font-size: 18px;
+}
+.stu-info legend{
+   background-color:darksalmon;
+   border-radius: 5px;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   font-size: 19px;
+}
+.exam legend{
+   background-color:darksalmon;
+   border-radius: 5px;
+   padding-top: 1%;
+   padding-bottom: 2%;
+   font-size: 19px;
+}
+.stu-info label{
+   margin-left:10px;
+   font-size: 17px;
+}
+
+fieldset ol{
+   margin-left: 10px;
+   font-size: 17px;
+}
+.submit{
+   margin-top: 2%;
+   padding-right: 0px;
+   margin-left: 1px;
+}
+.progress { 
+    position:relative;
+    width: 210px;
+    height: 20px;
+    background:cadetblue;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 1px;
+    margin-bottom: 2%;
+    float: right;
+}
+.progress__fill {
+    width: 10%;
+    height: 100%;
+    background-color:lightgrey;
+    margin-left: 0%;
+    padding-right: 2%;
+   
+}
+.progress__text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    font: bold 14px 'Quicksand', sans-serif;
+    color: white;
+}
+
+
+
+footer{
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 1px;
+   margin-top: 2%;
+   display: flex;
+   background-color:tan;
+   padding-bottom: 1%;
+   padding-top: 1%;
+   font-size:large;
+ }
+ 
+ .fa{
+   padding: 20%;
+   font-size: 30px;
+   width: 2%;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 10%;
+   height: 20%;
+
+ }
+
+ /* Facebook */
+ .fa-facebook{
+   background-color: #3b5998;
+   color: white;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   margin-left: 4%;
+   margin-right: 1%;
+
+ }
+ /* Twitter */
+ .fa-twitter{
+   background-color: #55acee;
+   color: white;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   margin-right: 1%
+ }
+ /* Instagram */
+ .fa-instagram{
+   background-color: #fa7646;
+   color: white;
+   padding-top: 1%;
+   padding-bottom: 1%;
+ }

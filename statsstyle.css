@@ -1,0 +1,124 @@
+body{
+   margin: 0;
+   padding:0%;
+   box-sizing: border-box;
+}
+
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color:tan;
+ }
+ .nav-links ul{
+   display: flex;
+   list-style-type: none;
+}
+
+.nav-links li a{
+   text-decoration:none;
+   list-style-type: none;
+   margin: 0 14px;
+   font-size: 18px;
+
+}
+.boxstyle h4{
+   box-sizing: border-box;
+   text-align: center;
+   margin: 3%;
+   padding: 1%;
+   padding-top:0%;
+   font-size :medium;
+   border: 2% solid;
+   margin-left: 30%;
+   margin-right: 30%;
+   margin-top: 1%;
+
+}
+caption{
+   background-color:black;
+   padding: 2%;
+   
+}
+.content-table{
+   width: 100%;
+   padding: 0%;
+   margin: 30%; 
+   text-align:center;
+   margin: 25px 5px 0 5px;
+   border: 2px solid;
+}
+.content-table th, .content-table td{
+   border-bottom: 10px solid white;
+   border-top: 5px solid white;
+}
+
+table th{
+   text-align: center;
+   padding: 2px 10px;
+   border-right: 3px solid white;
+   background-color:darkgrey;
+
+}
+.content-table td{
+   padding: 2px 10px;
+   text-align: center;
+   border-bottom: 20px;
+   background-color: lightgrey;
+   margin-right: 16%;
+}
+.content-table{
+   font-size: medium;
+   border: 1px;
+   margin: 0%;
+   padding: 1%;
+}
+
+ footer{
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 1px;
+   margin-top: 0%;
+   display: flex;
+   background-color:tan;
+   padding-bottom: 1%;
+   padding-top: 0%;
+   font-size:large;
+ }
+
+ .fa{
+   padding: 20%;
+   font-size: 30px;
+   width: 2%;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 10%;
+   height: 20%;
+
+ }
+
+ /* Facebook */
+ .fa-facebook{
+   background-color: #3b5998;
+   color: white;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   margin-left: 4%;
+   margin-right: 1%;
+
+ }
+ /* Twitter */
+ .fa-twitter{
+   background-color: #55acee;
+   color: white;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   margin-right: 1%
+ }
+ /* Instagram */
+ .fa-instagram{
+   background-color: #fa7646;
+   color: white;
+   padding-top: 1%;
+   padding-bottom: 1%;
+ }
